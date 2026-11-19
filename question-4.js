@@ -5,3 +5,12 @@ const inventory = [
   { name: "Orange", price: 30, quantity: 60 },
 ];
 // เริ่มเขียนโค้ดตรงนี้
+
+for ( i = 0; i < inventory.length; i++) {
+  let allInventory = 0;
+  allInventory
+}
+
+
+
+inventory(price, quantity);
