@@ -3,7 +3,7 @@ let userPassword = "ข้อนี้ใช้เวลาเกือบ ช�
 // เริ่มเขียนโค้ดตรงนี้
 function checkPasswordStrength (userPassword) {
     if (userPassword.length < 6 ) {
-        return "Strong";
+        return "Weak";
         console.log(checkPasswordStrength);
     }else if (userPassword.length <= 10 ) {
         return "Medium";

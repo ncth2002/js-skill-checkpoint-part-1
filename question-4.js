@@ -6,9 +6,8 @@ const inventory = [
 ];
 // เริ่มเขียนโค้ดตรงนี้
 
-for ( i = 0; i < inventory.length; i++) {
+for ( let i = 0; i < inventory.length; i++) {
   let allInventory = 0;
-  allInventory
 }
 
 
