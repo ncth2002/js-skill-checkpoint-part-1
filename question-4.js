@@ -6,10 +6,12 @@ const inventory = [
 ];
 // เริ่มเขียนโค้ดตรงนี้
 
-for ( let i = 0; i < inventory.length; i++) {
-  let allInventory = 0;
+let lessValueItem = inventory[0]; 
+
+for (let i = 0; i < inventory.length; i++) { 
+  if (inventory[i].quantity < lessValueItem.quantity) { 
+    lessValueItem = inventory[i]; 
 }
+console.log(`สินค้าที่มีจำนวนต่ำที่สุดในคลังสินค้าคือ ${lessValueItem.name} ซึ่งมี ${lessValueItem.quantity} ชิ้น`);
 
-
-
-inventory(price, quantity);
+}
